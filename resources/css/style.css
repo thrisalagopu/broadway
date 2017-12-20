@@ -2,15 +2,36 @@ body{
   font-family: Helvetica;
   text-align: center;
 }
-.header{
+#header,#work h2{
   background-image: url('../images/the-flatiron-building.png');
   color: White;
 }
-.header h1{
+#header h1{
   font-size: 70px;
   color: White;
 }
-.header a{
+#header a,.footer a{
   font-size: 18px;
   color: White;
+}
+#process h2{
+  font-size: 32px;
+}
+#process h3,#work h3,#team h3,#contact h3{
+  font-size: 23px;
+}
+#process p,#work p,#team p,#contact p{
+  font-size: 14px;
+}
+#work h2{
+  font-size: 23px;
+  color: White;
+}
+.footer{
+  background-color: dimgray;
+  color: White;
+  text-align: left;
+}
+.footer p{
+  font-size: 11px;
 }
